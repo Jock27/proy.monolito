@@ -1,0 +1,118 @@
+.contenido{
+    color: black;
+    background-color: rgb(0, 174, 255);
+    margin-left: 180px;
+    width: 80px;
+    height: 100px;
+    
+    
+}
+.Monolito {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #c98453;
+
+}
+.part {
+    position: absolute;
+    background: #bb8a66; /* Base color */
+    border: 4px solid #4d2510; /* Outline color */
+}
+.head {
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 25%;
+    border-top-left-radius: 20% 30%;
+    border-top-right-radius: 20% 30%;
+}
+.eyes, .nose, .mouth {
+    position: absolute;
+    background: #3e2a1f;
+}
+.eyes {
+    top: 35%;
+    left: 20%;
+    width: 30%;
+    height: 10%;
+}
+.eyes::before {
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+.nose {
+    top: 50%;
+    left: 45%;
+    width: 10%;
+    height: 15%;
+}
+.mouth {
+    top: 75%;
+    left: 30%;
+    width: 40%;
+    height: 10%;
+}
+.torso {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+.arms {
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+}
+.arms::before, .arms::after {
+    content: '';
+    position: absolute;
+    background: inherit;
+}
+.arms::before {
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+.arms::after {
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+}
+.legs {
+    top: 75%;
+    left: 30%;
+    width: 40%;
+    height: 25%;
+}
+.legs::before, .legs::after {
+    content: '';
+    position: absolute;
+    background: inherit;
+}
+.legs::before {
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+}
+.legs::after {
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+}
+.feet {
+    top: 95%;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+}
